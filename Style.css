@@ -1,9 +1,10 @@
 body {
     font-family:Arial;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 34px;
     color: #777777;
     background: #777777
+
   }
   
   * {
@@ -92,12 +93,19 @@ body {
     border: 1px solid #dddddd;
   }
   .auth-image {
-    float: left;
+    float: right;
     width: 200px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
   }
+
+    @media only screen and (min-width: 600px){
+      body{
+        background-color:lightskyblue;
+      }
+    }
+  
   
 
 
